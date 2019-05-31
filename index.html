@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Currencies Converter</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="ajax.js"></script>
+</head>
+<body>
+
+
+<div class="form-style-6">
+    <h1>RUB to PLN converter</h1>
+    <p id="ldr"><img src="ldr.gif"/></p>
+    <p id="date"></p>
+        <form>
+        <input id="amount" type="number" name="field1" placeholder="RUB" ondblclick="ClearForm(this)" title="DbClick to clear" />
+        <input id="result" type="number" name="field2" placeholder="PLN" ondblclick="ClearForm(this)" title="DbClick to clear" readonly />
+        <input type="button" value="Convert" onclick="Proceed(this)"  />
+    </form>
+</div>
+
+
+</body>
+</html>
